@@ -12,7 +12,7 @@ body{
     height: auto;
     min-height: 500px;
     max-width: 500px;
-    min-width: 250px;
+    min-width: 300px;
     background: #f1f5f8;
     background-image: radial-gradient(#bfc0c1 7.2%, transparent 0);
     background-size: 25px 25px;
@@ -28,23 +28,23 @@ h1{
     background-color: #fdcb6e;
 }
 *{
-    font-size: 18px;
+    font-size: 16px;
     padding: 0;
     margin: 0;
     font-family: "Architects Daughter", cursive;
 }
 p{
-   
+   font-size: 1.3rem;
 }
-button{
+button, input{
     background-color: white;
-    padding: 8px 15px;
     border-radius: 5px;
+    padding: .4em;
+    border-radius: 5px;
+    border: 1px rgb(158, 158, 158) solid;
 }
 input{
     width: 100%;
-    padding: 8px 15px;
-    border-radius: 5px;
 }
 .input-container{
     margin-top: 30px;
@@ -57,18 +57,13 @@ h1{
 }
 ul{
     margin-top: 10px;
-    overflow-y: scroll;
+    overflow-y: auto;
     height: 300px;
     display: flex;
     flex-direction: column;
     gap: 10px;
-    padding: 0 20px;
-    list-style-type: disc;
 }
 li{
-    border-bottom: 3px dashed rgb(222, 194, 174);
-    width: 100%;
-     white-space: normal; 
-      word-wrap: break-word;
-      overflow-wrap: break-word; 
+    font-size: 1.5rem;
+    list-style: inside;
 }
